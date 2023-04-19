@@ -1,0 +1,92 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather forecast</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/fcaac4cd72.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <form class="search-form" id="search-form">
+      <div class="row">
+        <div class="col-9">
+          <input
+            type="search"
+            placeholder="Type a city.."
+            autofocus="on"
+            autocomplete="off"
+            id="city-input"
+            class="form-control shadow-sm"
+          />
+        </div>
+        <div class="col-3">
+          <input
+            type="submit"
+            value="Search"
+            class="form-control btn btn-primary shadow-sm "
+          />
+        </div>
+      </div>
+    </form>
+    <h2 id="city">Currently in Kyiv</h2>
+    <p><i class="fa-solid fa-cloud-rain cloud-icon"></i> <h1>1°C</h1> </p>
+    <div class="row">
+      <div class="col-3">
+      <ul>
+        <li id="humidity">Humidity: 76%</li>
+        <li id="wind">Wind: 18km/h</li>
+      </ul>
+    </div>
+    <div class="col-12">
+    <ul  class="today">
+      <li id="date"></li>
+      <li id="description">
+        Snowy
+      </li>
+    </ul>
+  </div>
+  <div class="container">
+    <div class="row g-1">
+      <div class="col-1">
+        Thu
+        <br> <i class="fa-solid fa-cloud-sun cloud-sun-icon"></i></br>
+        <br> 7°  -1°</br>
+      </div>
+      <div class="col-1">
+          Fri
+          <br> <i class="fa-solid fa-sun sun-icon"></i></br>
+        <br> 12°  4°</br>
+        </div>
+        <div class="col-1">
+            Sat
+            <br> <i class="fa-solid fa-cloud cloud"></i></br>
+        <br> 13°  6°</br>
+          </div>
+          <div class="col-1">
+              Sun
+              <br> <i class="fa-solid fa-cloud-showers-heavy cloud-shower-icon"></i></br>
+        <br> 10°  3°</br>
+            </div>
+            <div class="col-1">
+                Mon
+                <br> <i class="fa-solid fa-cloud-showers-heavy cloud-shower-icon"></i></br>
+        <br> 6°  2°</br>
+              </div>
+            </div>
+          </div>
+          <script src = "script.js"></script>
+  </body>
+</html>
