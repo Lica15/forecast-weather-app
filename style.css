@@ -113,6 +113,7 @@ ul {
 }
 a {
   position: absolute;
+  display: block;
   margin: 0 auto;
   text-align: center;
 }
