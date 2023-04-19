@@ -112,10 +112,7 @@ ul {
   margin-top: -50px;
 }
 a {
-  position: absolute;
   display: block;
   margin: 0 auto;
   text-align: center;
-  margin-left: 600px;
-  margin-bottom: 500px;
 }
