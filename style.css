@@ -111,3 +111,7 @@ ul {
   margin-left: 500px;
   margin-top: -50px;
 }
+.link {
+  position: absolute;
+  margin: 0 auto;
+}
