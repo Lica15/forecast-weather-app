@@ -25,6 +25,11 @@ function formatDate(date) {
 }
 let dateElement = document.querySelector("#date");
 dateElement.innerHTML = formatDate(currentTime);
+let iconElement = document.querySelector("#icon");
+iconElement.setAttribute(
+  "src",
+  `https://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
+);
 
 function displayWeatherCondition(response) {
   document.querySelector("#city").innerHTML = response.data.name;
