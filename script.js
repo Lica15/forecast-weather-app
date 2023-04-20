@@ -61,6 +61,6 @@ let iconElement = document.querySelector("#icon");
 function displayIcon(response) {
   iconElement.setAttribute(
     "src",
-    `https://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
+    `https://openweathermap.org/img/wn/10d@2x.png`
   );
 }
