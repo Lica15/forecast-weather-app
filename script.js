@@ -58,7 +58,9 @@ searchForm.addEventListener("submit", handleSubmit);
 search("New York");
 
 let iconElement = document.querySelector("#icon");
-iconElement.setAttribute(
-  "src",
-  `https://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
-);
+function displayIcon(response) {
+  iconElement.setAttribute(
+    "src",
+    `https://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
+  );
+}
