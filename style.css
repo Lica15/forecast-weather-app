@@ -84,25 +84,25 @@ ul {
   position: absolute;
   text-align: center;
   margin-left: 270px;
-  margin-top: -60px;
+  margin-top: -74px;
 }
 #wind {
   position: absolute;
   text-align: center;
   margin-left: 270px;
-  margin-top: -36px;
+  margin-top: -50px;
 }
 #date {
   position: absolute;
   text-align: end;
   margin-left: 500px;
-  margin-top: -74px;
+  margin-top: -90px;
 }
 #description {
   position: absolute;
   text-align: end;
   margin-left: 500px;
-  margin-top: -50px;
+  margin-top: -66px;
 }
 small {
   position: absolute;
