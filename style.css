@@ -104,12 +104,10 @@ ul {
   margin-left: 500px;
   margin-top: -50px;
 }
-a {
+small {
   position: absolute;
-  bottom: 250px;
-  left: 310px;
-  display: block;
-  margin: 0 auto;
+  margin-top: 480px;
+  margin-left: 310px;
   text-align: center;
   text-decoration: none;
   cursor: default;
@@ -123,16 +121,18 @@ a {
 }
 .barrier {
   position: absolute;
-  margin-left: 100px;
-  margin-top: 26px;
+  margin-left: 104px;
+  padding-top: 26px;
 }
 #celsius-link {
+  padding-top: 26px;
   position: absolute;
-  margin-left: 210px;
+  margin-left: 80px;
 }
 #fahrenheit-link {
+  padding-top: 26px;
   position: absolute;
-  margin-left: 240px;
+  margin-left: 110px;
 }
 .weather-temperature .active {
   color: rgb(121, 121, 122);
@@ -140,4 +140,8 @@ a {
 }
 .weather-temperature .active:hover {
   text-decoration: none;
+}
+a {
+  text-decoration: none;
+  cursor: default;
 }
