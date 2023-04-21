@@ -111,6 +111,8 @@ a {
   display: block;
   margin: 0 auto;
   text-align: center;
+  text-decoration: none;
+  cursor: default;
 }
 #temperature {
   position: absolute;
@@ -131,4 +133,11 @@ a {
 #fahrenheit-link {
   position: absolute;
   margin-left: 240px;
+}
+.weather-temperature .active {
+  color: rgb(121, 121, 122);
+  cursor: default;
+}
+.weather-temperature .active:hover {
+  text-decoration: none;
 }
