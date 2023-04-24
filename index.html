@@ -20,88 +20,64 @@
   <body>
     <div class="container">
       <div class="weather-app">
-            <form class="search-form" id="search-form">
-            <div class="row">
-                <div class="col-9">
-                <input
-                    type="search"
-                    placeholder="Type a city.."
-                    autofocus="on"
-                    autocomplete="off"
-                    id="city-input"
-                    class="form-control shadow-sm"
-                />
-                </div>
-                <div class="col-3">
-                <input
-                    type="submit"
-                    value="Search"
-                    class="form-control btn btn-primary shadow-sm "
-                />
-                </div>
+        <form class="search-form" id="search-form">
+          <div class="row">
+            <div class="col-9">
+              <input
+                type="search"
+                placeholder="Type a city.."
+                autofocus="on"
+                autocomplete="off"
+                id="city-input"
+                class="form-control shadow-sm"
+              />
             </div>
-            </form>
-            <h2 id="city">Currently in Kyiv</h2>
-            <div class="d-flex weather-temperature">
-                <img 
-                id="icon"
-                src=""  
-                class="float-left"
-                />
-                <div class="float-left">
-                    <strong id="temperature"></strong><span class="units"
-                    ><a href="#" id="celsius-link" class="active">°C </a> <span class="barrier">|</span>
-                    <a href="#" id="fahrenheit-link">°F</a></span
-                  >
-                </div>
-            </div>
-            <div class="row">
             <div class="col-3">
-            <ul>
-                <li id="humidity">Humidity: 76%</li>
-                <li id="wind">Wind: 18km/h</li>
-            </ul>
+              <input
+                type="submit"
+                value="Search"
+                class="form-control btn btn-primary shadow-sm"
+              />
             </div>
-            <div class="col-12">
-            <ul  class="today">
-            <li id="date"></li>
-            <li id="description">
-                Snowy
-            </li>
-            </ul>
-            </div>
-            <div class="weather-forecast" id="forecast"></div>
-                <div class="row g-1">
-                    <div class="col-2">
-                        Thu
-                        <br> <i class="fa-solid fa-cloud-sun cloud-sun-icon"></i></br>
-                        <br> 7°  -1°</br>
-                    </div>
-                    <div class="col-2">
-                        Fri
-                        <br> <i class="fa-solid fa-sun sun-icon"></i></br>
-                        <br> 12°  4°</br>
-                    </div>
-                    <div class="col-2">
-                            Sat
-                            <br> <i class="fa-solid fa-cloud cloud"></i></br>
-                        <br> 13°  6°</br>
-                    </div>
-                    <div class="col-2">
-                            Sun
-                            <br> <i class="fa-solid fa-cloud-showers-heavy cloud-shower-icon"></i></br>
-                        <br> 10°  3°</br>
-                    </div>
-                    <div class="col-2">
-                                Mon
-                                <br> <i class="fa-solid fa-cloud-showers-heavy cloud-shower-icon"></i></br>
-                        <br> 6°  2°</br>
-                    </div>
-                </div>
-            </div>
+          </div>
+        </form>
+        <h2 id="city">Currently in Kyiv</h2>
+        <div class="d-flex weather-temperature">
+          <img id="icon" src="" class="float-left" />
+          <div class="float-left">
+            <strong id="temperature"></strong
+            ><span class="units"
+              ><a href="#" id="celsius-link" class="active">°C </a>
+              <span class="barrier">|</span>
+              <a href="#" id="fahrenheit-link">°F</a></span
+            >
+          </div>
         </div>
+        <div class="row">
+          <div class="col-3">
+            <ul>
+              <li id="humidity">Humidity: 76%</li>
+              <li id="wind">Wind: 18km/h</li>
+            </ul>
+          </div>
+          <div class="col-12">
+            <ul class="today">
+              <li id="date"></li>
+              <li id="description">Snowy</li>
+            </ul>
+          </div>
+          <div class="weather-forecast" id="forecast"></div>
+        </div>
+      </div>
     </div>
-     <small><a href="https://github.com/Lica15/forecast-weather-app.git" target="_blank">Open source-code</a> by Lica</small> 
-    <script src = "script.js"></script>
+    <small
+      ><a
+        href="https://github.com/Lica15/forecast-weather-app.git"
+        target="_blank"
+        >Open source-code</a
+      >
+      by Lica</small
+    >
+    <script src="script.js"></script>
   </body>
 </html>
