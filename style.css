@@ -57,29 +57,6 @@ ul {
   font-family: Arial, Helvetica, sans-serif;
   color: rgb(121, 121, 122);
 }
-.cloud-sun-icon {
-  font-size: 25px;
-  padding-top: 10px;
-  color: #c0c3cb;
-}
-.sun-icon {
-  font-size: 25px;
-  padding-top: 10px;
-  color: #c0c3cb;
-}
-.cloud {
-  font-size: 25px;
-  padding-top: 10px;
-  color: #c0c3cb;
-}
-.cloud-shower-icon {
-  font-size: 25px;
-  padding-top: 10px;
-  color: #c0c3cb;
-}
-.search-icon {
-  padding-left: 10px;
-}
 #humidity {
   position: absolute;
   text-align: center;
