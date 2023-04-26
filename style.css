@@ -3,20 +3,14 @@
   font-size: 18px;
   border-color: #353cf7;
 }
-.search {
-  background-color: #353cf7;
-  color: white;
-  padding: 10px 20px;
-  border: 1px solid #353cf7;
-  border-radius: 10px;
-  font-size: 18px;
-}
+
 .weather-app {
   border: 1px solid #acd0ff;
   padding: 30px;
   margin: 20px auto;
   border-radius: 10px;
-  max-width: 700px;
+  width: fit-content;
+  block-size: fit-content;
 }
 
 h2 {
@@ -66,19 +60,19 @@ ul {
 #date {
   position: absolute;
   text-align: end;
-  margin-left: 500px;
+  margin-left: 480px;
   margin-top: -90px;
 }
 #description {
   position: absolute;
   text-align: end;
-  margin-left: 500px;
+  margin-left: 480px;
   margin-top: -66px;
 }
 small {
-  position: absolute;
-  margin-top: 440px;
-  margin-left: 310px;
+  display: block;
+  bottom: 0%;
+  padding: 0% auto;
   text-align: center;
   text-decoration: none;
   cursor: default;
