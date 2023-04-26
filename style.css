@@ -47,28 +47,23 @@ ul {
   color: rgb(121, 121, 122);
 }
 #humidity {
-  padding-left: 10px;
   position: absolute;
   text-align: center;
   margin-left: 250px;
   margin-top: -74px;
 }
 #wind {
-  padding-left: 10px;
   position: absolute;
-  text-align: center;
   margin-left: 250px;
   margin-top: -50px;
 }
 #date {
   position: absolute;
-  text-align: end;
   margin-left: 460px;
   margin-top: -90px;
 }
 #description {
   position: absolute;
-  text-align: end;
   margin-left: 460px;
   margin-top: -66px;
 }
