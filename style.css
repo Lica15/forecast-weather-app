@@ -48,25 +48,25 @@ ul {
 #humidity {
   position: absolute;
   text-align: center;
-  margin-left: 270px;
+  margin-left: 250px;
   margin-top: -74px;
 }
 #wind {
   position: absolute;
   text-align: center;
-  margin-left: 270px;
+  margin-left: 250px;
   margin-top: -50px;
 }
 #date {
   position: absolute;
   text-align: end;
-  margin-left: 480px;
+  margin-left: 460px;
   margin-top: -90px;
 }
 #description {
   position: absolute;
   text-align: end;
-  margin-left: 480px;
+  margin-left: 460px;
   margin-top: -66px;
 }
 small {
@@ -80,24 +80,24 @@ small {
 #temperature {
   position: absolute;
   margin-top: 20px;
-  margin-left: 20px;
+  margin-left: 10px;
   font-size: 40px;
   font-weight: normal;
 }
 .barrier {
   position: absolute;
-  margin-left: 104px;
+  margin-left: 84px;
   padding-top: 26px;
 }
 #celsius-link {
   padding-top: 26px;
   position: absolute;
-  margin-left: 80px;
+  margin-left: 60px;
 }
 #fahrenheit-link {
   padding-top: 26px;
   position: absolute;
-  margin-left: 110px;
+  margin-left: 90px;
 }
 .weather-temperature .active {
   color: rgb(121, 121, 122);
